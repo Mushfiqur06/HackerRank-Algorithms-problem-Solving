@@ -18,7 +18,6 @@ function quickSort(items){
 
 function find_middle(arr){
     let arrs = quickSort(arr);
-    console.log(arrs)
     return arrs[Math.floor(arrs.length / 2)]
 }
 
